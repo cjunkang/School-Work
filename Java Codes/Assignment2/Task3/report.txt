@@ -1,0 +1,4 @@
+1mb: 9750ms, 97.5seconds or ~0.16minutes
+10mb: 98093ms,  980seconds or ~1.6minutes
+100mb: 976461ms, 9760seconds or ~16minutes
+1000mb: 9804353ms, 98044seconds or ~163minutes

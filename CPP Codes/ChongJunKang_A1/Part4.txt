@@ -1,0 +1,19 @@
+g++ main.cpp md5.cpp -o FileSystem
+
+./FileSystem -i to create account
+Register account with Username and password
+Password will require minimum 8 characters, with 1 lowercase, 1 uppercase, 1 number and 1 special character
+
+Accounts are saved in salt.txt
+in format
+username:salt hashed password
+and in shadow.txt
+username:shadow hashed password: security level
+
+
+./FileSystem to run create / append / write / read / list / save file
+
+All created files will be saved to FileStore as format
+
+<name of file> : <security level>
+
